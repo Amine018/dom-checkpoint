@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming  room</title>
+        <link rel="stylesheet" href="styles2.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <script src="cart 2.js" async></script>
+    </head>
+    <body>
+        <header class="main">
+            <div class="navbar">
+                <h1 class="a" href="#home">Gaming Room </h1>
+                <a class="a" href="#store">STORE</a>
+                <a class="a" href="#about">ABOUT</a>
+            </div>
+        </header>
+        <section class="items">
+            <div class="shopitems">
+                <div class="shop-item">
+                    <button onclick="Toggle()" id="btn1" class="heart"><i class="bi bi-suit-heart-fill"></i></button>
+                    <img class="itemimage" width="200" src="https://apibackend.megapc.tn//uploads/gallerie/1622449807753.webp">
+                    <div class="itemdetails">
+                        <span class="item">gaming room v1</span>
+                        <span class="itemprice">$10000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <button onclick="Toggle()" id="btn1" class="heart"><i class="bi bi-suit-heart-fill"></i></button>
+                    <img class="itemimage" width="200" src="https://apibackend.megapc.tn//uploads/gallerie/1622449880507.webp">
+                    <div class="itemdetails">
+                        <span class="item">gaming room v2</span>
+                        <span class="itemprice">$12000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <button onclick="Toggle()" id="btn1" class="heart"><i class="bi bi-suit-heart-fill"></i></button>
+                    <img class="itemimage" width="200" src="https://apibackend.megapc.tn//uploads/gallerie/1622449887540.webp">
+                    <div class="itemdetails">
+                        <span class="item">gaming room v3</span>
+                        <span class="itemprice">$15000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <button onclick="Toggle()" id="btn1" class="heart"><i class="bi bi-suit-heart-fill"></i></button>
+                    <img class="itemimage" width="200" src="https://apibackend.megapc.tn//uploads/gallerie/1622449807753.webp">
+                    <div class="itemdetails">
+                        <span class="item">gaming room v4</span>
+                        <span class="itemprice">$20000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+    </body>
+</html>
